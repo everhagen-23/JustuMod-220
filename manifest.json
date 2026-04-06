@@ -1,0 +1,11 @@
+{
+    "Name": "Jutsu Mod",
+    "Author": "Emma Verhagen + Raymond LastName",
+    "Version": "2.9.1",
+    "MinimumApiVersion": "0.0.1",
+    "Description": "Adds Naruto themed Jutsu and textures to the game.",
+    "UniqueID": "eevee.jutsu",
+    "EntryDll": "ContentPatcher.dll",
+    "UpdateKeys": [ "Nexus:1915" ]
+}
+s
