@@ -1,2 +1,12 @@
 # JustuMod-220
-repo for game 220 modding
+
+Features (add when implemented into game):
+- 
+
+To Add:
+[x] Sasuke Sprites (portrait + walking)
+[-] Sasuke NPC code
+[-] Naruto Sprites (portrait + walking)
+[-] Naruto NPC code
+[-] Jutsu Sprites
+[-] Retextured Sprites (weapons, animals, etc). 
