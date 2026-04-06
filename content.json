@@ -1,0 +1,48 @@
+{
+"Format":"1.6",
+"Changes":
+[
+    {
+        "LogName":"Weapons",
+        "Action": "Edit Data",
+        "Entries": {
+        "Name":"Chidori",
+        "DisplayName":"Chidori",
+        "Description":"A lightning powered Jutsu that deals immense damage and knockback",
+        "Type":"Weapons",
+        "Texture":"Weapons/",
+        "SpriteIndex":"n/a",
+        "MinDamage": "12",
+        "MaxDamage": "12",
+        "Knockback": "12",
+        "Speed": "12",
+        "Precision":"12",
+        "Defense":"12",
+        "CritChance":"12",
+        "CritMultiplier":"12",
+        "CanBeLostOnDeath":"false"
+        }
+        
+    },
+{
+    "LogName":"NPC",
+    "Action": "Edit Data",
+     "Entries": {
+        "DisplayName":"Sasuke",
+        "Gender":"Male",
+        "Age":"Teen",
+        "Manner":"Rude",
+        "SocialAnxiety":"Shy",
+        "Optimism":"Negative",
+        "BirthSeason":"Summer",
+        "BirthDay":"23",
+        "Calendar":"AlwaysShown",
+        "":"UnknownUntilMet"
+
+     }
+}
+
+]
+
+
+}
