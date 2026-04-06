@@ -27,6 +27,7 @@
 {
     "LogName":"NPC",
     "Action": "Edit Data",
+    "Target":"Data/Characters",
      "Entries": {
         "DisplayName":"Sasuke",
         "Gender":"Male",
@@ -37,7 +38,12 @@
         "BirthSeason":"Summer",
         "BirthDay":"23",
         "Calendar":"AlwaysShown",
-        "":"UnknownUntilMet"
+        "SocialTab":"UnknownUntilMet",
+        "PerfectionScore":"false",
+        "EndSlideShow":"TrailingGroup",
+        "DumpsterDiveEmote": "12",
+        "DumpsterDiveFriendshipEffect":"-50"
+
 
      }
 }
