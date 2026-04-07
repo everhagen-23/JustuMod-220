@@ -1,77 +1,56 @@
 {
-"Format":"1.6",
-"Changes":
-[
-    {
-        "LogName":"Weapons",
-        "Action": "Edit Data",
-        "Entries": {
-        "Name":"Chidori",
-        "DisplayName":"Chidori",
-        "Description":"A lightning powered Jutsu that deals immense damage and knockback",
-        "Type":"Weapons",
-        "Texture":"Weapons/",
-        "SpriteIndex":"n/a",
-        "MinDamage": "12",
-        "MaxDamage": "12",
-        "Knockback": "12",
-        "Speed": "12",
-        "Precision":"12",
-        "Defense":"12",
-        "CritChance":"12",
-        "CritMultiplier":"12",
-        "CanBeLostOnDeath":"false"
-        }
-        
-    },
-
-{
+    "Format": "1.6.15",
+    "Changes": [
+        {
             "Action": "Load",
-            "Target": "Characters/Sasuke",
+            "Target": "Characters/mod.justu_Sasuke",
             "FromFile": "Characters/Sasuke.png"
         },
         {
             "Action": "Load",
-            "Target": "Portraits/Sasuke",
+            "Target": "Portraits/mod.justu_Sasuke",
             "FromFile": "Portraits/Sasuke.png"
         },
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/Sasuke",
-            "FromFile": "assets/Sasuke.json"
+            "Target": "Characters/Dialogue/mod.justu_Sasuke",
+            "FromFile": "Characters/Dialogue/Sasuke.json"
         },
+
         {
             "Action": "Load",
-            "Target": "Characters/schedules/Sasuke",
-            "FromFile": "assets/Sasuke.json"
+            "Target": "Characters/schedules/mod.justu_Sasuke",
+            "FromFile": "Characters/schedules/Sasuke.json"
         },
-    
-{
-    "LogName":"NPC",
-    "Action": "Edit Data",
-    "Target":"Data/Characters",
-     "Entries": {
-        "Name":"Sasuke",
-        "DisplayName":"Sasuke",
-        "Gender":"Male",
-        "Age":"Teen",
-        "Manner":"Rude",
-        "SocialAnxiety":"Shy",
-        "Optimism":"Negative",
-        "BirthSeason":"Summer",
-        "BirthDay":"23",
-        "Calendar":"AlwaysShown",
-        "SocialTab":"UnknownUntilMet",
-        "PerfectionScore":"false",
-        "EndSlideShow":"TrailingGroup",
-        "DumpsterDiveEmote": "12",
-        "DumpsterDiveFriendshipEffect":"-50"
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "mod.justu_Sasuke": {
+                    "DisplayName": "Sasuke", 
+                    "BirthSeason": "Spring",
+                    "BirthDay": 3,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Positive",
 
+                    "CanBeRomanced": false,
 
-     }
-}
-
-]
-
-
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "BusStop",
+                            "Tile": {
+                            "X": 4,
+                            "Y": 5
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
 }
