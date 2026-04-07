@@ -24,6 +24,28 @@
         }
         
     },
+
+{
+            "Action": "Load",
+            "Target": "Characters/Sasuke",
+            "FromFile": "Characters/Sasuke.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/Sasuke",
+            "FromFile": "Portraits/Sasuke.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Dialogue/Sasuke",
+            "FromFile": "assets/Sasuke.json"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/schedules/Sasuke",
+            "FromFile": "assets/Sasuke.json"
+        },
+    
 {
     "LogName":"NPC",
     "Action": "Edit Data",
