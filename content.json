@@ -29,6 +29,7 @@
     "Action": "Edit Data",
     "Target":"Data/Characters",
      "Entries": {
+        "Name":"Sasuke",
         "DisplayName":"Sasuke",
         "Gender":"Male",
         "Age":"Teen",
