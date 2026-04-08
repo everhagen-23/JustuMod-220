@@ -1,56 +1,42 @@
 {
-    "Format": "1.6.15",
+    "Format": "2.8.0",
     "Changes": [
-        {
-            "Action": "Load",
-            "Target": "Characters/mod.justu_Sasuke",
-            "FromFile": "Characters/Sasuke.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Portraits/mod.justu_Sasuke",
-            "FromFile": "Portraits/Sasuke.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/mod.justu_Sasuke",
-            "FromFile": "Characters/Dialogue/Sasuke.json"
-        },
+           	 {
+   		 "LogName": "Blank JSON load",
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/{{ModId}}_Sasuke, Characters/schedules/{{ModId}}_Sasuke, Strings/schedules/{{ModId}}_Sasuke",
+        	"FromFile": "assets/data/blank.json"
+   	 },
 
-        {
-            "Action": "Load",
-            "Target": "Characters/schedules/mod.justu_Sasuke",
-            "FromFile": "Characters/schedules/Sasuke.json"
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "mod.justu_Sasuke": {
-                    "DisplayName": "Sasuke", 
-                    "BirthSeason": "Spring",
-                    "BirthDay": 3,
-                    "HomeRegion": "Town",
-                    "Gender": "Male",
-                    "Age": "Adult",
-                    "Manner": "Rude",
-                    "SocialAnxiety": "Neutral",
-                    "Optimism": "Positive",
+         	{
+        	"LogName": "Sasuke Live Birth",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Sasuke/sasukeDispo.json"
+            },
+    {
+        	"LogName": "Base Portraits",
+        	"Action": "Load",
+        	"Target": "Portraits/{{ModId}}_Sasuke",
+        	"FromFile": "assets/Sasuke/portrait.png"
+   	 },
+     	 
+    	{
+        	"LogName": "NPC Dialogue",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Sasuke/sdialogue.json"
+    	},
+{
+        	"LogName": "Base Portraits",
+        	"Action": "Load",
+        	"Target": "Characters/{{ModId}}_Sasuke",
+        	"FromFile": "assets/Sasuke/sprites.png"
+   	 },
 
-                    "CanBeRomanced": false,
+         	{
+        	"LogName": "NPC Schedule",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Sasuke/shedule.json"
+    	}
 
-                    "Home": [
-                        {
-                            "Id": "Default",
-                            "Location": "BusStop",
-                            "Tile": {
-                            "X": 4,
-                            "Y": 5
-                            }
-                        }
-                    ]
-                }
-            }
-        }
     ]
 }
