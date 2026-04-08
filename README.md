@@ -10,6 +10,7 @@ To Add:
 - [ ] Naruto NPC code
 - [ ] Jutsu Sprites
 - [ ] Retextured Sprites (weapons, animals, etc).
+      
 Issues:
 - [ ] Large amount of dialouge to add lol
 - [ ] Might have issues with weapons
