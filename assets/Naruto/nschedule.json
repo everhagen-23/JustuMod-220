@@ -1,0 +1,17 @@
+  {
+"Changes":
+	[
+ 
+   	 {
+        	"LogName": "sasuke schedule",
+        	"Action": "EditData",
+        	"Target": "Characters/schedules/{{ModId}}_Sasuke",
+   		 "Entries": {
+   			 
+   			 "rain": "610 Beach 5 40 1,",
+   			 "spring": "610 BusStop 15 21 2"
+   			
+   		 }
+    	}
+]
+}
