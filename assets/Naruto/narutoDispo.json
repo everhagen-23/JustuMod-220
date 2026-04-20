@@ -1,39 +1,38 @@
 {
-    "Changes" :[
-        {
-    "LogName":"Sasuke Live Birth part 2",
-    "Action": "EditData",
-    "Target":"Data/Characters",
-     "Entries": {
-        "{{ModId}}_Sasuke":{
-        "DisplayName":"Sasuke",
-        "Gender":"Male",
-        "Age":"Teen",
-        "Manner":"Rude",
-        "SocialAnxiety":"Shy",
-        "Optimism":"Negative",
-        "BirthSeason":"Spring",
-        "BirthDay":"5",
-        "Calendar":"AlwaysShown",
-        "SocialTab":"UnknownUntilMet",
-        "PerfectionScore":"false",
-        "EndSlideShow":"TrailingGroup",
-        "DumpsterDiveEmote": "12",
-        "DumpsterDiveFriendshipEffect":"-50",
-
-"Home": [
-   					 {
-   						 "Id": "Default",
-   						 "Location": "Town",
-   						 "Tile": {
-   							 "X": 20,
-   							 "Y": 56
-   						 },
-   						 "Direction": "right" 
-                        }
-                    ]
-}
-     }
-}
-    ]
+  "Changes": [
+    {
+      "LogName": "Naruto Live Birth part 2",
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Naruto": {
+          "DisplayName": "Naruto",
+          "Gender": "Male",
+          "Age": "Teen",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "BirthSeason": "Fall",
+          "BirthDay": "10",
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "PerfectionScore": "false",
+          "EndSlideShow": "TrailingGroup",
+          "DumpsterDiveEmote": "20",
+          "DumpsterDiveFriendshipEffect": "-50",
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Town",
+              "Tile": {
+                "X": 21,
+                "Y": 56
+              },
+              "Direction": "left"
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
