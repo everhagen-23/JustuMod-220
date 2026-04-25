@@ -5,7 +5,7 @@
     "Action": "EditData",
     "Target":"Data/Characters",
      "Entries": {
-        "{{ModId}}_Sasuke":{
+        "mod.jutsu_Sasuke":{
         "DisplayName":"Sasuke",
         "Gender":"Male",
         "Age":"Teen",

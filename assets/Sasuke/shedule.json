@@ -5,7 +5,7 @@
    	 {
         	"LogName": "sasuke schedule",
         	"Action": "EditData",
-        	"Target": "Characters/schedules/{{ModId}}_Sasuke",
+        	"Target": "Characters/schedules/mod.jutsu_Sasuke",
    		 "Entries": {
    			 
    			 "rain": "610 Beach 5 40 1,",

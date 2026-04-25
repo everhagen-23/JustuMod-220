@@ -5,6 +5,8 @@
     "MinimumApiVersion": "0.0.1",
     "Description": "Adds Naruto themed Jutsu and textures to the game.",
     "UniqueID": "mod.jutsu",
-    "EntryDll": "ContentPatcher.dll",
+    "ContentPackFor" : {
+        "UniqueID" : "Pathoschild.ContentPatcher"
+    },
     "UpdateKeys": [ "Nexus:1915" ]
 }

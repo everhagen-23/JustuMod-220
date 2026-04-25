@@ -4,8 +4,8 @@
            	 {
    		 "LogName": "Blank JSON load",
         	"Action": "Load",
-        	"Target": "Characters/Dialogue/{{ModId}}_Sasuke, Characters/schedules/{{ModId}}_Sasuke, Strings/schedules/{{ModId}}_Sasuke",
-        	"FromFile": "assets/Sasuke/blank.json"
+        	"Target": "Characters/Dialogue/mod.jutsu_Sasuke, Characters/schedules/mod.jutsu_Sasuke, Strings/schedules/mod.jutsu_Sasuke",
+        	"FromFile": "assets/Sasuke/sdialogue.json, assets/Sasuke/shedule.json, assets/Sasuke/shedule.json,"
    	 },
 
          	{
@@ -16,7 +16,7 @@
     {
         	"LogName": "Base Portraits",
         	"Action": "Load",
-        	"Target": "Portraits/{{ModId}}_Sasuke",
+        	"Target": "Portraits/mod.jutsu_Sasuke",
         	"FromFile": "assets/Sasuke/portrait.png"
    	 },
      	 
@@ -28,7 +28,7 @@
 {
         	"LogName": "Base Portraits",
         	"Action": "Load",
-        	"Target": "Characters/{{ModId}}_Sasuke",
+        	"Target": "Characters/mod.jutsu_Sasuke",
         	"FromFile": "assets/Sasuke/sprite.png"
    	 },
 
