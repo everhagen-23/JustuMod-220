@@ -1,4 +1,11 @@
 {
+  "Changes":
+  [
+    {
+      "LogName": "sasuke dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/mod.justu_Sasuke",
+      "Entries": {
   "Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#Just don't get in my way!$9",
   "AcceptBirthdayGift_Positive": "I hate this... but I'll take it...$h",
   "AcceptBirthdayGift_Negative": "I don't like anything... this included...$s",
@@ -128,4 +135,7 @@
   "winter_Wed6": "It must be nice to have a family still be able to send you letters...$h",
   "winter_Fri10": "@, is that a spider on your face? Or are you just that ugly?...$s",
   "Wed4": "I can't trust anyone anymore... I don't need to trust anyone but myself!$h"
+      }
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     {
       "LogName": "naruto schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{ModId}}_Naruto",
+      "Target": "Characters/schedules/mod.justu_Naruto",
       "Entries": {
         "rain": "610 Beach 10 35 1",
         "spring": "610 BusStop 15 21 2"

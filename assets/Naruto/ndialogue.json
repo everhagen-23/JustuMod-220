@@ -1,4 +1,11 @@
 {
+  "Changes":
+  [
+    {
+      "LogName": "sasuke dialogue",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/mod.justu_Naruto",
+      "Entries": {
   "Introduction": "Oh! So you're the new guy, huh? Nice! I'm Naruto Uzumaki!^Hey! You're the new girl, huh? Awesome! I think we're gonna get along great. I'm Naruto Uzumaki!#$e#See you around! Believe it!",
   "FlowerDance_Accept": "Haha, you beat me to it! I was just about to ask you...$h#$e#I'll see you out there!",
   "AcceptBirthdayGift_Loved": "Whoa!! This is awesome... Thanks for the birthday gift, @!$h",
@@ -123,4 +130,7 @@
   "winter_Wed8": "You know what? I'm going to start reading a book!",
   "winter_Thu6": "I wish I could control the weather.",
   "winter_Thu10": "If I ever make a lot of money, I'll make sure all my friends and family are taken care of.#$e#That means you, too.$h"
+      }
+    }
+  ]
 }

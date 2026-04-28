@@ -5,7 +5,7 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{ModId}}_Naruto": {
+        "mod.justu_Naruto": {
           "DisplayName": "Naruto",
           "Gender": "Male",
           "Age": "Teen",
