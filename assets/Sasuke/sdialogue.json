@@ -10,8 +10,6 @@
   "AcceptBirthdayGift_Positive": "I hate this... but I'll take it...$h",
   "AcceptBirthdayGift_Negative": "I don't like anything... this included...$s",
   "AcceptGift_(O)BatteryPack": "Don't go thinking I owe you one just because I need this for my Chidori.",
-  "AcceptGift_(O)ShadowClone": "This reminds me of a certain bothersome ninja. Keep it to yourself.",
-  "AcceptGift_(O)Chidori": "If you think I need your help you're dead wrong. I can avenge my clan on my own.",
   "AcceptGift_(O)FireQuartz": "This fire quartz shines red like the sharingan of my clan. This gives me the strength to continue my fight. Thank you.",
   "GreenRain": "I've never seen a jutsu that turns rain green like this before. But nothing can evade my sharingan eyes!",
   "GreenRainFinished": "Did the jutsu end?$h",
@@ -136,6 +134,17 @@
   "winter_Fri10": "@, is that a spider on your face? Or are you just that ugly?...$s",
   "Wed4": "I can't trust anyone anymore... I don't need to trust anyone but myself!$h"
       }
-    }
+    },
+       	 {
+        	"LogName": "sasuke schedule",
+        	"Action": "EditData",
+        	"Target": "Characters/schedules/mod.jutsu_Sasuke",
+   		 "Entries": {
+   			 
+   			 "rain": "610 Beach 5 40 1,",
+   			 "spring": "610 BusStop 15 21 2"
+   			
+   		 }
+    	}
   ]
 }

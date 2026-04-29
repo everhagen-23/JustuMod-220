@@ -1,11 +1,12 @@
 {
     "Format": "2.9.1",
     "Changes": [
-           	 {
-   		 "LogName": "Blank JSON load",
+
+	            	 {
+   		 "LogName": "dialogue JSON load",
         	"Action": "Load",
         	"Target": "Characters/Dialogue/mod.jutsu_Sasuke, Characters/schedules/mod.jutsu_Sasuke",
-        	"FromFile": "assets/Sasuke/sdialogue.json, assets/Sasuke/shedule.json"
+        	"FromFile": "assets/Sasuke/blank.json"
    	 },
 
          	{
@@ -42,50 +43,7 @@
    		 "LogName": "Gift Tastes Include",
    		 "Action": "Include",
    		 "FromFile": "assets/Sasuke/gifttastes.json"
-   	 },
 
-	            	 {
-   		 "LogName": "Blank JSON load",
-        	"Action": "Load",
-        	"Target": "Characters/Dialogue/mod.jutsu_Sasuke, Characters/schedules/mod.jutsu_Sasuke, Strings/schedules/mod.jutsu_Sasuke",
-        	"FromFile": "assets/Sasuke/sdialogue.json, assets/Sasuke/shedule.json, assets/Sasuke/shedule.json,"
-   	 },
-
-         	{
-        	"LogName": "Sasuke Live Birth",
-   		 "Action": "Include",
-   		 "FromFile": "assets/Naruto/NarutoDispo.json"
-            },
-     	 
-    	{
-        	"LogName": "NPC Dialogue",
-   		 "Action": "Include",
-   		 "FromFile": "assets/Naruto/ndialogue.json"
-    	},
-		    {
-        	"LogName": "Base Portraits",
-        	"Action": "Load",
-        	"Target": "Portraits/mod.jutsu_Naruto",
-        	"FromFile": "assets/Naruto/portrait.png"
-   	 },
-{
-        	"LogName": "Base Sprite",
-        	"Action": "Load",
-        	"Target": "Characters/mod.jutsu_Naruto",
-        	"FromFile": "assets/Naruto/sprite.png"
-   	 },
-
-         	{
-        	"LogName": "NPC Schedule",
-   		 "Action": "Include",
-   		 "FromFile": "assets/Naruto/nschedule.json"
-    	},
-		    	{
-   		 "LogName": "Gift Tastes Include",
-   		 "Action": "Include",
-   		 "FromFile": "assets/Naruto/gifttastes.json"
-   	 }
-		
-
-    ]
+}
+	]
 }
