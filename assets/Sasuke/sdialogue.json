@@ -4,7 +4,7 @@
     {
       "LogName": "sasuke dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/mod.justu_Sasuke",
+      "Target": "Characters/Dialogue/mod.jutsu_Sasuke",
       "Entries": {
   "Introduction": "Oh, that's right... I heard someone new was moving onto that old farm.#$e#Just don't get in my way!$9",
   "AcceptBirthdayGift_Positive": "I hate this... but I'll take it...$h",
