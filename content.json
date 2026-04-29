@@ -1,14 +1,6 @@
 {
     "Format": "2.9.1",
     "Changes": [
-
-	            	 {
-   		 "LogName": "dialogue JSON load",
-        	"Action": "Load",
-        	"Target": "Characters/Dialogue/mod.jutsu_Sasuke, Characters/schedules/mod.jutsu_Sasuke",
-        	"FromFile": "assets/Sasuke/blank.json"
-   	 },
-
          	{
         	"LogName": "Sasuke Live Birth",
    		 "Action": "Include",
