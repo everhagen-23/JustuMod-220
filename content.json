@@ -6,7 +6,12 @@
    		 "Action": "Include",
    		 "FromFile": "assets/Sasuke/sasukeDispo.json"
             },
-
+	            	 {
+   		 "LogName": "JSON load",
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/mod.jutsu_Sasuke, Characters/schedules/mod.jutsu_Sasuke",
+        	"FromFile": "Blank.json"
+   	 },
 	    	{
         	"LogName": "NPC Dialogue",
    		 "Action": "Include",
@@ -36,6 +41,47 @@
    		 "Action": "Include",
    		 "FromFile": "assets/Sasuke/gifttastes.json"
 
-}
+},
+
+{
+        	"LogName": "Naruto Live Birth",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Naruto/narutoDispo.json"
+            },
+	            	 {
+   		 "LogName": "JSON load",
+        	"Action": "Load",
+        	"Target": "Characters/Dialogue/mod.jutsu_Naruto, Characters/schedules/mod.jutsu_Naruto",
+        	"FromFile": "Blank.json"
+   	 },
+	    	{
+        	"LogName": "NPC Dialogue",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Naruto/ndialogue.json"
+    	},
+    {
+        	"LogName": "Base Portraits",
+        	"Action": "Load",
+        	"Target": "Portraits/mod.jutsu_Naruto",
+        	"FromFile": "assets/Naruto/portrait.png"
+   	 },
+     	 
+{
+        	"LogName": "sprites sasuke",
+        	"Action": "Load",
+        	"Target": "Characters/mod.jutsu_Naruto",
+        	"FromFile": "assets/Naruto/sprite.png"
+   	 },
+
+         	{
+        	"LogName": "NPC Schedule",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Naruto/nschedule.json"
+    	},
+		    	{
+   		 "LogName": "Gift Tastes Include",
+   		 "Action": "Include",
+   		 "FromFile": "assets/Naruto/gifttastes.json"
+				}
 	]
 }

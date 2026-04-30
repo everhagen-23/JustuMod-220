@@ -134,17 +134,6 @@
   "winter_Fri10": "@, is that a spider on your face? Or are you just that ugly?...$s",
   "Wed4": "I can't trust anyone anymore... I don't need to trust anyone but myself!$h"
       }
-    },
-       	 {
-        	"LogName": "sasuke schedule",
-        	"Action": "EditData",
-        	"Target": "Characters/schedules/mod.jutsu_Sasuke",
-   		 "Entries": {
-   			 
-   			 "rain": "610 Beach 5 40 1,",
-   			 "spring": "610 BusStop 15 21 2"
-   			
-   		 }
-    	}
+    }
   ]
 }
