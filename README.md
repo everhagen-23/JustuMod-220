@@ -1,7 +1,6 @@
 # JustuMod-220
 
 can someone else take a crack at trying to get the mod to implement i CANNOT figure it out </3
-I'm trying to figure it out. -Jeeho
 
 Features (add when implemented into game):
 - nothing rn
