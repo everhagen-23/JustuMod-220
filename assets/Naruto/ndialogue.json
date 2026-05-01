@@ -4,7 +4,7 @@
     {
       "LogName": "sasuke dialogue",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/mod.justu_Naruto",
+      "Target": "Characters/Dialogue/mod.jutsu_Naruto",
       "Entries": {
   "Introduction": "Oh! So you're the new guy, huh? Nice! I'm Naruto Uzumaki!^Hey! You're the new girl, huh? Awesome! I think we're gonna get along great. I'm Naruto Uzumaki!#$e#See you around! Believe it!",
   "FlowerDance_Accept": "Haha, you beat me to it! I was just about to ask you...$h#$e#I'll see you out there!",
